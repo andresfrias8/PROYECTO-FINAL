@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap');
+nav, form, small, main, h3, h2, h1, p{font-family: 'Raleway', sans-serif;}
+body {
+    background-color: beige;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    .header__nav {
+        .header__nav__ul {
+            display: flex;
+            list-style: none;
+        }
+    }
+}
+.linkNav {
+    text-decoration: none;
+    color: blueviolet;
+}
+.main {
+    .main__img {
+        width: 100%;
+        height: 50vh;
+        list-style-position: center;
+        overflow: auto;
+        object-fit: cover;
+        }
+    .main__h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+    .main__p {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+    .main__a {
+        /*no se como corregir esto, quiero que la frase link que me lleva a "sobre mi" quede centrado.. y no puedo hacerlo, ni centrando con text-align el "main__a" ni el "main__a__small" puedo lograrlo*/
+        display: flex;
+        text-align: center;
+        .main__a__small {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+    }
+    .main__div {
+        .main__div__h2 {
+            text-align: center;
+        }
+        .main__div__section__1 {
+        }
+        .main__div__section__2 {
+        }
+        .main__div__a {
+            /*no se como corregir esto, quiero que la frase link que me lleva a "sobre mi" quede centrado.. y no puedo hacerlo, ni centrando con text-align el "main__a" ni el "main__a__small" puedo lograrlo*/
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+    }
+}
