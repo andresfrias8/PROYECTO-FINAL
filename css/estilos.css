@@ -123,5 +123,20 @@ Media query para dispositivos móviles y para tablets listo */
     object-fit: cover;
 }
 
-/* estilos de pagina galeria */
+/* estilos de pagina eventos */
 
+.main {
+    .main__h1{
+        text-decoration: underline;
+        font-weight: 500;
+    }
+    .main__div{
+        .main__div__div {
+            width: 50vh;
+            height: 400px;
+        }
+    }
+}
+.card {
+    width: 400px;
+}
