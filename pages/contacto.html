@@ -41,31 +41,41 @@
               </nav>
         </header>
         <main>
-            <h1>consultas?</h1>
-            <section>
-                <h2>Contáctenos hoy para conocer las próximas muestras y eventos, o consultas de arte personalizadas</h2>
-                <form action="">
-                    <label for="nombre">Nombre*</label>
-                    <input type="text" id="nombre" name="nombre" required>
+          <h1 class="text-center">consultas?</h1>
+          <h2 class="text-center">Contáctenos hoy para conocer las próximas muestras y eventos, o consultas de arte personalizadas</h2>
 
-                    <label for="apellido">Apellido*</label>
-                    <input type="text" id="apellido" name="apellido" required>
 
-                    <label for="mail">Email*</label>
-                    <input type="email" id="mail" name="email" placeholder="ejemplo@servidor.com" required>
+          <div class="container">
+            <form>
+              <div class="row mb-3">
+                <div class="col-md-4">
+                  <label for="Nombre" class="form-label">Nombre*</label>
+                  <input type="text" class="form-control" id="inputNombre">
+                </div>
+                <div class="col-md-4">
+                  <label for="Apellido" class="form-label">Apellido*</label>
+                  <input type="text" class="form-control" id="inputApellido">
+                </div>
+                <div class="col-md-4">
+                  <label for="Email" class="form-label">Email*</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="ejemplo@servidor.com">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="Asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="inputAsunto">
+              </div>
+              <div class="mb-3">
+                <label for="Mensaje" class="form-label">Mensaje*</label>
+                <textarea class="form-control" id="inputMensaje" rows="3"></textarea>
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-primary rounded-pill">Enviar</button>
+              </div>
+            </form>
+          </div>    
 
-                    <label for="asunto">Asunto</label>
-                    <input type="text" id="asunto" name="asunto">
-
-                    <label for="comentario">Mensaje*</label>
-                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="ingrese su comentario" required></textarea>
-                
-                    <div>
-                        <input type="submit" value="enviar">
-                        <input type="reset" value="limpiar formulario">
-                    </div>
-                </form>
-            <div>
+            <div class="text-center">             
             <h2>PREGUNTAS FRECUENTES</h2>
             <h3>OBRAS PERSONALIZADAS</h3>
             <p>Para consultas de obras de arte personalizadas, coloque en ASUNTOS: " solicitud de arte personalizado " . Asegúrese de incluir el tema y el tamaño que le interesan para obtener una cotización precisa. Si tiene una foto específica que desea que ANDRES haga referencia, envíela por correo electrónico a contacto@andresfrias8.com. La disponibilidad de ANDRES para obras de arte personalizadas es limitada, por lo tanto, incluya tantos detalles descriptivos como sea posible cuando envíe su solicitud. ANDRES crea cada pieza personalizada a mano utilizando una combinación de pinceladas y distintas técnicas.  Cada obra de arte personalizada está firmada a mano por ANDRES viene con un certificado de autenticidad como prueba de valor.</p>
@@ -74,9 +84,6 @@
             <h3>ENVIO</h3>
             <p>Los costos de envío varían según el tamaño de la obra de arte y el lugar de envío. Si está comprando una pintura de lienzo de más de 150 cm  y desea ahorrar en el envío, podemos enviar la pintura enrollada en lugar de en el marco. Para solicitudes de envío especiales, envíe un correo electrónico a contacto@andresfrias8.com y estaremos encantados de ayudarlo. La recolección está disponible solo en Mendoza, Argentina.</p>
             </div>
-
-
-
         </main>
 
         <footer class="footer mt-4">
