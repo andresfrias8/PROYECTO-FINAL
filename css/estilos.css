@@ -126,10 +126,10 @@ Media query para dispositivos móviles y para tablets listo */
 /* estilos de pagina eventos */
 
 .main {
-    .main__h1{
+    /*.main__h1{
         text-decoration: underline;
         font-weight: 500;
-    }
+    }*/
     .main__div{
         .main__div__div {
             width: 50vh;
