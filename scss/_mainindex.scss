@@ -1,0 +1,55 @@
+.main {
+    .main__img{
+        width: $width-100;
+        max-height: 60vh;
+        object-fit:cover;
+    }
+    .main__h1 {
+        font-size: $fuente-grande;
+        font-weight: $fuente-grosor-h1;
+    }
+    .main__p {
+        font-size:$fuente-pequena;
+        font-weight:$fuente-grosor-p;
+        /*.main__p__span {
+            font-size: 1.9rem;
+        }*/
+    }
+    .main__div{
+        .main__div__h2 {
+            font-size: $fuente-normal;
+            text-decoration: underline;
+        }
+    }
+}
+/* Quiero que la media query achique la letra de los items del navegador cuando sea en un dispositivo móvil 
+
+ARREGLADO, TENIA QUE SER MAS ESPECIFICO!!
+
+Media query para dispositivos móviles y para tablets listo */
+@media screen and (max-width: 768px) {
+    .main {
+        .main__h1 {
+            font-size: 2.4rem;
+            font-weight: $fuente-grosor-h1;
+        }
+        .main__p {
+        font-size: 1.25rem;
+        font-weight:$fuente-grosor-p;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /*no me estaria saliendo la mediaquori para poder bajarle el tamaño de letra al .main__h1 .main__p cuando la pantalla se achica a la de una tablet y a la de una celular*/
+    .main {
+        .main__h1 {
+            font-size: 2rem;
+            font-weight: $fuente-grosor-h1;
+        }
+        .main__p {
+        font-size: 1rem;
+        font-weight:$fuente-grosor-p;
+        }
+    }
+}
