@@ -89,17 +89,10 @@ Media query para dispositivos móviles y para tablets listo */
     font-weight: 400;
   }
 }
-/* estilos de pagina galeria */
-.divGaleria {
-  width: 30%;
-  max-height: 30vh;
-  object-fit: cover;
-}
-
 .image-container {
   position: relative;
-  width: 300px; /* Ancho deseado del contenedor */
-  height: 400px; /* Alto deseado del contenedor */
+  width: 300px;
+  height: 400px;
   overflow: hidden;
 }
 
@@ -112,7 +105,15 @@ Media query para dispositivos móviles y para tablets listo */
   object-fit: cover;
 }
 
-.divProblematico {
+/* estilos de pagina galeria */
+/*
+.divGaleria {
+    width: 30%;
+    max-height: 30vh;
+    object-fit:cover
+}
+*/
+.backgroundFondo {
   display: flex;
   align-items: center;
   justify-content: center;

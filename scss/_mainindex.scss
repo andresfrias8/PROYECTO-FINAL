@@ -61,3 +61,18 @@ Media query para dispositivos móviles y para tablets listo */
         }
     }
 }
+
+.image-container {
+    position: relative;
+    width: 300px; 
+    height: 400px;
+    overflow: hidden;
+}
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $width-100;
+    height: 100%;
+    object-fit: cover;
+}
