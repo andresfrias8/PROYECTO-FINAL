@@ -4,6 +4,17 @@
         max-height: 80vh;
         object-fit:cover
     }
+    .main__p{
+        font-size: 24px;
+        font-weight: map-get($fuente, light );
+    }
 }
-    
-    
+
+@media screen and (max-width: 576px) {
+    .sobreMi__main {
+        .main__p{
+            font-size: 20px;
+            font-weight: map-get($fuente, light );
+        }
+    }
+}

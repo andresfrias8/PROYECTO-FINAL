@@ -45,9 +45,15 @@ body {
   font-size: 3rem;
   font-weight: 500;
 }
-.main .main__p {
+.main .main__section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main .main__section .main__section__p {
   font-size: 1.5rem;
   font-weight: 400;
+  padding-right: 20px;
+  padding-left: 20px;
   /*.main__p__span {
       font-size: 1.9rem;
   }*/
@@ -119,7 +125,17 @@ Media query para dispositivos móviles y para tablets listo */
   max-height: 80vh;
   object-fit: cover;
 }
+.sobreMi__main .main__p {
+  font-size: 24px;
+  font-weight: 300;
+}
 
+@media screen and (max-width: 576px) {
+  .sobreMi__main .main__p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
 /* estilos de pagina eventos */
 .main {
   /*.main__h1{
