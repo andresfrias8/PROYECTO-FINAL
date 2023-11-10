@@ -1,0 +1,10 @@
+.footer {
+    .footer__div{
+        .footer__div__a {
+            transition: 0.5s;
+        }
+        .footer__div__a:hover {
+            transform: scale(1.4);
+        }
+    }
+}

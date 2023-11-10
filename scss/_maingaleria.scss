@@ -8,10 +8,28 @@
     }
     */
     .backgroundFondo {
-        display: flex;
+        /*display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center;*/
         background-image: url(../assets/img/backgroundGaleria.jpg);
         background-size:cover;
+        @include flexbox (row,center,center)
         }
-        
+    .backgroundFondo1 {
+        background-image: url(../assets/img/cuadrosPresentados/PARED.jpg);
+    }
+    .contenedorImagen1 {
+        width: 450px;
+        max-height: 500px;
+        object-fit: cover;
+    }
+    .contenedorImagen2 {
+        width: 600px;
+        max-height: 500px;
+        object-fit: cover;
+    }
+    .contenedorImagen3 {
+        width: 450px;
+        max-height: 500px;
+        object-fit: cover;
+    }

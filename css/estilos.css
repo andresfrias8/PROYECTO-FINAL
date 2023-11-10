@@ -1,5 +1,8 @@
 @charset "UTF-8";
-/*crear variables*/
+/* no pude hacer funcionar el gradiente / se usaria con background-image: $gradiente pero no logro que funcione */
+/*background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .objectFit {
   width: 100%;
@@ -16,10 +19,14 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #FFFDF6;
+  /*background-image: linear-gradient(to left top, #154389, #0076a9, #00a4ac, #7acda7, #ddf0b2);*/
+  height: auto;
+  /*background-image: $gradiente   */
 }
 
 .navbar {
   background-color: #FFFDF6;
+  /*background-image: $gradiente*/
 }
 
 .header .header__nav .header__nav__ul {
@@ -114,11 +121,37 @@ Media query para dispositivos móviles y para tablets listo */
 }
 */
 .backgroundFondo {
-  display: flex;
+  /*display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   background-image: url(../assets/img/backgroundGaleria.jpg);
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundFondo1 {
+  background-image: url(../assets/img/cuadrosPresentados/PARED.jpg);
+}
+
+.contenedorImagen1 {
+  width: 450px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.contenedorImagen2 {
+  width: 600px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.contenedorImagen3 {
+  width: 450px;
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .sobreMi__main .main__img {
@@ -151,6 +184,13 @@ Media query para dispositivos móviles y para tablets listo */
 
 .card {
   width: 400px;
+}
+
+.footer .footer__div .footer__div__a {
+  transition: 0.5s;
+}
+.footer .footer__div .footer__div__a:hover {
+  transform: scale(1.4);
 }
 
 /*# sourceMappingURL=estilos.css.map */
