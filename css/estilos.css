@@ -137,21 +137,27 @@ Media query para dispositivos móviles y para tablets listo */
 }
 
 .contenedorImagen1 {
-  width: 450px;
+  width: 400px;
   max-height: 500px;
+  /*height: auto;*/
   object-fit: cover;
+  overflow: hidden;
 }
 
 .contenedorImagen2 {
   width: 600px;
   max-height: 500px;
+  /*height: auto;*/
   object-fit: cover;
+  overflow: hidden;
 }
 
 .contenedorImagen3 {
-  width: 450px;
+  width: 500px;
   max-height: 500px;
+  /*height: auto;*/
   object-fit: cover;
+  overflow: hidden;
 }
 
 .sobreMi__main .main__img {
