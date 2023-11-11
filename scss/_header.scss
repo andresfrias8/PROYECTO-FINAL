@@ -1,6 +1,11 @@
 .navbar {
     background-color: $color-primario;
     /*background-image: $gradiente*/
+    .navbar__div {
+        .navbar-brand img {
+            animation: floatAnimation 2s infinite;
+          }
+    }
 }
 .header{
     .header__nav {
@@ -19,3 +24,14 @@
         font-size: 1rem;
     }
 }
+@keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

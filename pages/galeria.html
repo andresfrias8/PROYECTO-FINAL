@@ -1,238 +1,225 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>galeria</title>
-        <link rel="shortcut icon" href="../flavicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/estilos.css">
-    </head>
-    <body class="w-100">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                  <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/img/animal_panda ico.ico" alt="logo">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
-                      <li class="nav-item fs-4">
-                        <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
-                      </li>
-                      <li class="nav-item fs-4">
-                        <a class="nav-link active" href="./galeria.html">GALERIA</a>
-                      </li>
-                      <li class="nav-item fs-4">
-                        <a class="nav-link" href="./eventos.html">EVENTOS</a>
-                      </li>
-                      <li class="nav-item fs-4">
-                        <a class="nav-link" href="./sobre mi.html">SOBRE MI</a>
-                      </li>
-                      <li class="nav-item fs-4">
-                        <a class="nav-link" href="./contacto.html">CONTACTO</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galeria</title>
+    <link rel="shortcut icon" href="../flavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+  </head>
+  <body>
+    <header>
 
-        
-        <main class="main w-100">
-         <!-- <div class="container">
-            <div class="divProblematico row justify-content-center align-items-center mt-3"> -->
+         <!-- PROBLEMA: en galeria es la unica pagina que el icono esta mas grande y las listas del nav estan mas grandes que las demas, no he podido encontrar el problema-->
 
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="navbar__div container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../assets/img/animal_panda ico.ico" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"        aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+              <li class="nav-item fs-4">
+                <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item fs-4">
+                <a class="nav-link active" href="./galeria.html">GALERIA</a>
+              </li>
+              <li class="nav-item fs-4">
+                <a class="nav-link" href="./eventos.html">EVENTOS</a>
+              </li>
+              <li class="nav-item fs-4">
+                <a class="nav-link" href="./sobre mi.html">SOBRE MI</a>
+              </li>
+              <li class="nav-item fs-4">
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
+    <main class="main">
+      <div class="backgroundFondo1 row justify-content-center p-4">
 
-              <div class="backgroundFondo1 row justify-content-center p-4">
-                <section class="container row">       
-                  <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
-                    <h1>"En éxtasis"</h1>
-                  </div>
-                  <div class="descripcion col-md-6">                      
-                    <p class="card-text d-flex justify-content-center mt-3 mb-3">
-                      Tamaño: 100x160 cm<br>
-                      Forma: Acrílico en lienzo y laca semi mate<br>
-                      Valor: consultar precio y traslado.
-                    </p>                      
-                  </div>
-                </section>
-                <div class="row justify-content-center overflow-hidden"> <!-- Añadida la clase text-center aquí -->
-                  <div class="contenedorImagen2 col-md-8 mb-3">
-                    <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 1.png" alt="Imagen 1">
-                  </div>
-                  <div class="contenedorImagen1 col-md-4 mb-3">
-                    <img class="img-fluid img-thumbnail" src="../assets/img/primerCuadro2.JPG" alt="Imagen 3">
-                  </div>
-                </div>
+<!-- PROBLEMA: me hubiera gustado colocar las imagenes mas perfectas en cuanto al buttom, por que a veces pasa que se corta el "img-thumbnail" o como por ejemplo en el cuadro 6 que las fotos de la izquierda no llego a completar el alto que habia designado para cada cuadro de la galeria; de todas maneras me gusto como quedo :)"-->
+
+        <section class="container row">       
+          <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
+            <h1>"En éxtasis"</h1>
+          </div>
+          <div class="descripcion col-md-6">                      
+            <p class="card-text d-flex justify-content-center mt-3 mb-3">
+              Tamaño: 100x160 cm<br>
+              Forma: Acrílico en lienzo y laca semi mate<br>
+              Valor: consultar precio y traslado.
+            </p>                      
+          </div>
+        </section>
+
+        <div class="row justify-content-center overflow-hidden">
+          <div class="contenedorImagen2 col-md-8 mb-3">
+            <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 1.png" alt="cuadro 1 presentado en ambiente">
+          </div>
+          <div class="contenedorImagen1 col-md-4 mb-3">
+            <img class="img-fluid img-thumbnail" src="../assets/img/primerCuadro2.JPG" alt="cuadro 1">
+          </div>
+        </div>
                 
-                <section class="container row">     
-                  <div class="row">
-                    <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
-                        <h1>"Fuá.."</h1>
-                    </div>
-                    <div class="col-md-6">
-                       <div class="descripcion">
-                         <p class="card-text d-flex justify-content-center mt-3 mb-3">
-                           Tamaño: 160x100 cm<br>
-                           Forma: Acrílico en lienzo y laca semi mate<br>
-                           marco con dorado al papel<br>
-                           Valor: consultar precio y traslado.
-                         </p>
-                       </div>
-                     </div>
-                  </div>
-                 </section>
-                   
-                  <div class="contenedorImagen1 col-md-6 mb-3">
-                    <img class="img-fluid img-thumbnail" src="../assets/img/segundoCuadro2.JPG"  alt="Imagen 2">
-                    <img class="img-fluid img-thumbnail mt-3" src="../assets/img/cuadro 2 proceso e.jpeg"  alt="Imagen 2">
-                  </div>
-                  <div class="contenedorImagen2 col-md-12 mb-3">
-                   <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 2.png" alt="Imagen 2">
-                  </div>
-                  <!--<div class="contenedorImagen2 col-md-6 mb-3">
-                    <img src="../assets/img/segundoCuadro3.JPG" class="img-fluid img-thumbnail" alt="Imagen 3">
-                  </div>-->
-
-                  <section class="container row">     
-                    <div class="row">
-                      <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
-                          <h1>"Banana"</h1>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="descripcion">
-                          <p class="card-text d-flex justify-content-center mt-3 mb-3">
-                            Tamaño: 50x80 cm<br>
-                            Forma: Acrílico en lienzo y laca semi mate<br>
-                            Valor: consultar precio y traslado.
-                         </p>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-
-
-                  <div class="contenedorImagen2 col-md-6 mb-3">
-                    <img src="../assets/img/cuadrosPresentados/CUADRO 3.png" class="img-fluid img-thumbnail" alt="Imagen 1">
-                  </div>
-                  <div class="contenedorImagen1 col-md-6">
-                   <div class="w-100 mb-3">
-                    <img class="img-fluid img-thumbnail" src="../assets/img/tercerCuadroFirma1.JPG" alt="Imagen 3">
-                    <img class="img-fluid img-thumbnail mt-3" src="../assets/img/tercerCuadro3.JPG" alt="Imagen 2">
-                   </div>
-                  </div>
-
-
-                  <section class="container row">  
-                    <div class="row">
-                      <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
-                        <h1>"El fisura"</h1>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="descripcion">
-                          <p class="card-text d-flex justify-content-center mt-3 mb-3">
-                            Tamaño: 20x40 cm<br>
-                            Forma: Acrílico en lienzo y laca semi mate<br>
-                            Valor: consultar precio y traslado.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </section> 
-
-
-
-                  <div class="row justify-content-center overflow-hidden"> <!-- Añadida la clase text-center aquí -->
-                    <div class="contenedorImagen2 col-md-8 mb-3">
-                      <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 4 tres.png" alt="Imagen 1">
-                    </div>
-                    <div class="contenedorImagen1 col-md-4 mb-3">
-                      <img class="img-fluid img-thumbnail" src="../assets/img/cuartoCuadro2.JPG" alt="Imagen 3">
-                    </div>
-                  </div>
+        <section class="container row">     
+          <div class="row">
+            <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
+              <h1>"Fuá.."</h1>
+            </div>
+            <div class="col-md-6">
+              <div class="descripcion">
+                <p class="card-text d-flex justify-content-center mt-3 mb-3">
+                  Tamaño: 160x100 cm<br>
+                  Forma: Acrílico en lienzo y laca semi mate<br>
+                  marco con dorado al papel<br>
+                  Valor: consultar precio y traslado.
+                </p>
               </div>
+            </div>
+          </div>
+        </section>
+                   
+        <div class="contenedorImagen1 col-md-6 mb-3">
+          <img class="img-fluid img-thumbnail" src="../assets/img/segundoCuadro2.JPG"  alt="cuadro 2 firma">
+          <img class="img-fluid img-thumbnail mt-3" src="../assets/img/cuadro 2 proceso e.jpeg" alt="cuadro 2 detalle dorado">
+        </div>
+        <div class="contenedorImagen2 col-md-12 mb-3">
+          <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 2.png" alt="cuadro 2 presentado en ambiente">
+        </div>
 
+        <section class="container row">     
+          <div class="row">
+            <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
+                <h1>"Banana"</h1>
+            </div>
+            <div class="col-md-6">
+              <div class="descripcion">
+                <p class="card-text d-flex justify-content-center mt-3 mb-3">
+                  Tamaño: 50x80 cm<br>
+                  Forma: Acrílico en lienzo y laca semi mate<br>
+                  Valor: consultar precio y traslado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
+        <div class="contenedorImagen2 col-md-6 mb-3">
+          <img src="../assets/img/cuadrosPresentados/CUADRO 3.png" class="img-fluid img-thumbnail" alt="cuadro 3 presentado en ambiente">
+        </div>
+        <div class="contenedorImagen1 col-md-6">
+          <div class="w-100 mb-3">
+            <img class="img-fluid img-thumbnail" src="../assets/img/tercerCuadroFirma1.Jpg" alt="cuadro 3 firma">
+            <img class="img-fluid img-thumbnail mt-3" src="../assets/img/tercerCuadro3.Jpg" alt="cuadro 3 detalles">
+          </div>
+        </div>
+
+        <section class="container row">  
+          <div class="row">
+            <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
+              <h1>"El fisura"</h1>
+            </div>
+            <div class="col-md-6">
+              <div class="descripcion">
+                <p class="card-text d-flex justify-content-center mt-3 mb-3">
+                  Tamaño: 20x40 cm<br>
+                  Forma: Acrílico en lienzo y laca semi mate<br>
+                  Valor: consultar precio y traslado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="row justify-content-center overflow-hidden">
+          <div class="contenedorImagen2 col-md-8 mb-3">
+            <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 4 tres.png" alt="cuadro 4 presentado en ambiente">
+          </div>
+          <div class="contenedorImagen1 col-md-4 mb-3">
+            <img class="img-fluid img-thumbnail" src="../assets/img/cuartoCuadro2.JPG" alt="cuadro 4">
+          </div>
+        </div>         
               
-              <div class="backgroundFondo1 row justify-content-center p-4">
-                <section class="container row">  
-                  <div class="row">
-                    <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
-                      <h1>"El tula"</h1>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="descripcion">
-                        <p class="card-text d-flex justify-content-center mt-3 mb-3">
-                         Tamaño: 80x50 cm<br>
-                         Forma: Acrílico en lienzo y laca semi mate<br>
-                         Valor: consultar precio y traslado.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </section>  
-
-
+        <div class="backgroundFondo1 row justify-content-center p-4">
+          <section class="container row">  
+            <div class="row">
+              <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
+                <h1>"El tula"</h1>
+              </div>
+              <div class="col-md-6">
+                <div class="descripcion">
+                  <p class="card-text d-flex justify-content-center mt-3 mb-3">
+                    Tamaño: 80x50 cm<br>
+                    Forma: Acrílico en lienzo y laca semi mate<br>
+                    Valor: consultar precio y traslado.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section> 
+        </div>
                    
-                <div class="contenedorImagen1 col-md-6 mb-3">
-                  <img class="img-fluid img-thumbnail" src="../assets/img/quintoCuadro3.jpg"  alt="Imagen 2">
-                  <img class="img-fluid img-thumbnail mt-3" src="../assets/img/quintoCuadro2.jpg"  alt="Imagen 2">
-                </div>
-                <div class="contenedorImagen2 col-md-12 mb-3">
-                 <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 5 dos.png" alt="Imagen 2">
-                </div>
-
+        <div class="contenedorImagen1 col-md-6 mb-3">
+          <img class="img-fluid img-thumbnail" src="../assets/img/quintoCuadro3.jpg"  alt="cuadro 5">
+          <img class="img-fluid img-thumbnail mt-3" src="../assets/img/quintoCuadro2.jpg"  alt="cuadro 5 detalles">
+        </div>
+        <div class="contenedorImagen2 col-md-12 mb-3">
+          <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 5 dos.png" alt="cuadro 5 presentado en ambiente">
+        </div>
                 
-                <section class="container row">     
-                  <div class="row">
-                    <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
-                        <h1>"Tabla"</h1>
-                    </div>
-                    <div class="col-md-6">
-                       <div class="descripcion">
-                         <p class="card-text d-flex justify-content-center mt-3 mb-3">
-                           Tamaño: 100x60 cm<br>
-                           Forma: Acrílico en lienzo y laca semi mate<br>
-                           Valor: consultar precio y traslado.
-                         </p>
-                       </div>
-                     </div>
-                  </div>
-                 </section>
+        <section class="container row">     
+          <div class="row">
+            <div class="col-md-6 d-flex align-item-center justify-content-center mt-4">
+              <h1>"Tabla"</h1>
+            </div>
+            <div class="col-md-6">
+              <div class="descripcion">
+                <p class="card-text d-flex justify-content-center mt-3 mb-3">
+                  Tamaño: 100x60 cm<br>
+                  Forma: Acrílico en lienzo y laca semi mate<br>
+                  Valor: consultar precio y traslado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
                    
-                  <div class="contenedorImagen1 col-md-6 mb-3">
-                    <img class="img-fluid img-thumbnail" src="../assets/img/cuadro 6.JPG"  alt="Imagen 2">
-                    <img class="img-fluid img-thumbnail mt-3" src="../assets/img/cuadro 6 ella.JPG"  alt="Imagen 2">
-                  </div>
-                  <div class="contenedorImagen2 col-md-12 mb-3">
-                   <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 6.png" alt="Imagen 2">
-                  </div>
+        <div class="contenedorImagen1 col-md-6 mb-3">
+          <img class="img-fluid img-thumbnail" src="../assets/img/cuadro 6.JPG"  alt="cuadro 6 detalle tabla de surf">
+          <img class="img-fluid img-thumbnail mt-3" src="../assets/img/cuadro 6 ella.JPG"  alt="cuadro 6 detalle mujer">
+        </div>
+        <div class="contenedorImagen2 col-md-12 mb-3">
+          <img class="img-fluid img-thumbnail" src="../assets/img/cuadrosPresentados/CUADRO 6.png" alt="cuadro 6 presentado en ambiente">
+        </div>
 
-
-              </div>
-             </div>      
-        </main>
-        <footer class="footer mt-4">
-              <div class="footer__div container d-flex align-item-center justify-content-center">
-               <a class="footer__div__a"  href="https://www.instagram.com/andyfrias8/" target="_blank">
-                  <img src="../assets/img/logo instagram.ico" alt="instagram">
-               </a>
-               <a class="footer__div__a"  href="https://web.facebook.com/andres.frias.75436/?locale=es_LA" target="_blank">
-                  <img src="../assets/img/logo facebook.ico" alt="facebook">
-               </a>
-               <a class="footer__div__a"  href="https://www.linkedin.com/in/andres-frias-3a6463293/" target="_blank">
-                  <img src="../assets/img/logo linkedin.ico" alt="linkedin">
-               </a>
-               <a class="footer__div__a"  href="https://ar.pinterest.com/andresfrias8/" target="_blank">
-                  <img src="../assets/img/logo pinterest.ico" alt="pinterest">
-               </a>
-              </div>
-          </footer>
-          <script src="../js/bootstrap.bundle.min.js"></script>
-    </body>
+      </div>          
+    </main>
+    <footer class="footer mt-4">
+      <div class="footer__div container d-flex align-item-center justify-content-center">
+        <a class="footer__div__a"  href="https://www.instagram.com/andyfrias8/" target="_blank">
+          <img src="../assets/img/logo instagram.ico" alt="instagram">
+        </a>
+        <a class="footer__div__a"  href="https://web.facebook.com/andres.frias.75436/?locale=es_LA" target="_blank">
+          <img src="../assets/img/logo facebook.ico" alt="facebook">
+        </a>
+        <a class="footer__div__a"  href="https://www.linkedin.com/in/andres-frias-3a6463293/" target="_blank">
+          <img src="../assets/img/logo linkedin.ico" alt="linkedin">
+        </a>
+        <a class="footer__div__a"  href="https://ar.pinterest.com/andresfrias8/" target="_blank">
+          <img src="../assets/img/logo pinterest.ico" alt="pinterest">
+        </a>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
